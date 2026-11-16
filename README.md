@@ -11,6 +11,31 @@ Built using Python, Streamlit, Sentence Transformers, Ollama, and Qwen2.5.
 - **Approximately 61% less retrieved context** using QACA V2 compared with Top-3 retrieval under overlapping chunking, while improving evaluator-judged accuracy from 91.67% to 100%.
 - Interactive performance comparisons tracking accuracy, context size, latency, and LLM calls.
 
+
+## Application Screenshots
+
+### 1. Document Chunking
+Compare four chunking strategies and inspect the resulting document chunks.
+
+![Document Chunking](assets/chunking.png)
+
+### 2. Semantic Retrieval and Answer Generation
+Retrieve relevant document chunks and generate grounded answers using a local LLM.
+
+![Semantic Retrieval](assets/semantic-retrieval.png)
+
+### 3. QACA V2 Adaptive Retrieval
+Experiment with relevance thresholds, context expansion, and adaptive retrieval.
+
+![QACA V2 Experiment](assets/qaca-experiment.png)
+
+### 4. Automated RAG Evaluation
+Compare retrieval methods using factual accuracy, context size, LLM calls, and runtime.
+
+![Evaluation Results](assets/evaluation-results.png)
+
+
+
 ## Features
 
 - PDF and CSV document uploads
